@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Sax & Fön",
+    "price": 320,
+    "time": "12.00",
+    "executionTime": "30min",
+    "rating": "4",
+    "amountOfReviews": 32,
+    "adress": "Rådmansgatan 46"
+  },
+  {
+    "name": "Hårizont",
+    "price": 320,
+    "time": "12.00",
+    "executionTime": "30min",
+    "rating": "4",
+    "amountOfReviews": 32,
+    "adress": "Rådmansgatan 46"
+  },
+  {
+    "name": "Hårhuset",
+    "price": 320,
+    "time": "12.00",
+    "executionTime": "30min",
+    "rating": "4",
+    "amountOfReviews": 32,
+    "adress": "Rådmansgatan 46"
+  },
+  {
+    "name": "Hair & Nu",
+    "price": 320,
+    "time": "12.00",
+    "executionTime": "30min",
+    "rating": "4",
+    "amountOfReviews": 32,
+    "adress": "Rådmansgatan 46"
+  },
+  {
+    "name": "Hårley Davidson",
+    "price": 320,
+    "time": "12.00",
+    "executionTime": "30min",
+    "rating": "4",
+    "amountOfReviews": 32,
+    "adress": "Rådmansgatan 46"
+  }
+]
