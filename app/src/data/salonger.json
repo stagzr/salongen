@@ -4,44 +4,64 @@
     "price": 320,
     "time": "12.00",
     "executionTime": "30min",
-    "rating": "4",
+    "rating": 4,
     "amountOfReviews": 32,
-    "adress": "Rådmansgatan 46"
+    "adress": "Rådmansgatan 46",
+    "phone": "0812345678",
+    "www": "www.salong.se",
+    "openHours": "19:00",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "name": "Hårizont",
-    "price": 320,
+    "price": 222,
     "time": "12.00",
     "executionTime": "30min",
-    "rating": "4",
+    "rating": 4,
     "amountOfReviews": 32,
-    "adress": "Rådmansgatan 46"
+    "adress": "Rådmansgatan 46",
+    "phone": "0812345678",
+    "www": "www.salong.se",
+    "openHours": "19:00",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "name": "Hårhuset",
-    "price": 320,
+    "price": 175,
     "time": "12.00",
     "executionTime": "30min",
-    "rating": "4",
+    "rating": 4,
     "amountOfReviews": 32,
-    "adress": "Rådmansgatan 46"
+    "adress": "Rådmansgatan 46",
+    "phone": "0812345678",
+    "www": "www.salong.se",
+    "openHours": "19:00",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "name": "Hair & Nu",
     "price": 320,
     "time": "12.00",
     "executionTime": "30min",
-    "rating": "4",
+    "rating": 4,
     "amountOfReviews": 32,
-    "adress": "Rådmansgatan 46"
+    "adress": "Rådmansgatan 46",
+    "phone": "0812345678",
+    "www": "www.salong.se",
+    "openHours": "19:00",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "name": "Hårley Davidson",
     "price": 320,
     "time": "12.00",
     "executionTime": "30min",
-    "rating": "4",
+    "rating": 4,
     "amountOfReviews": 32,
-    "adress": "Rådmansgatan 46"
+    "adress": "Rådmansgatan 46",
+    "phone": "0812345678",
+    "www": "www.salong.se",
+    "openHours": "19:00",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 ]

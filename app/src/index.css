@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "MillerBanner";
+  src: local("MillerBanner"),
+   url("./fonts/Font Bureau - MillerBanner Light.otf") format("truetype");
+  font-weight: lighter;
+  }

@@ -1,0 +1,75 @@
+.salong {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "time name price link"
+    "time rating executionTime link"
+    "time adress . link";
+    gap: 10px;
+
+    align-content: space-between;
+    justify-content: space-around;
+
+    border-width: 0 0 1px 0;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    
+    padding: 1rem 0;
+
+}
+
+.time {
+    grid-area: time;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.name {
+    grid-area: name;
+    text-align: left;
+    width: 100%;
+    font-family: "MillerBanner";
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+.rating {
+    grid-area: rating;
+    text-align: left;
+}
+
+.adress {
+    grid-area: adress;
+    text-align: left;
+    color: gray;
+}
+
+.price {
+    grid-area: price;
+    text-align: left;
+    font-weight: bold;
+}
+
+.executionTime {
+    grid-area: executionTime;
+    text-align: left;
+    color: gray;
+}
+
+.link {
+    grid-area: link;
+    padding: 1em;
+    align-self: center;
+}
+
+.link .arrow {
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: #b8860b;
+    height: 0.5em;
+    width: 0.5em;
+    transform: rotate(45deg);
+    cursor: pointer;
+}

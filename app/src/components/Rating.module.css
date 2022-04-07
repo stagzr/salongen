@@ -1,0 +1,17 @@
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 0.8em;
+}
+
+svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 0.1em;
+}
+
+.amountOfVoters {
+    margin-left: 0.5em;
+}

@@ -1,0 +1,134 @@
+.salongDetalj {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translate(100%);
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 30%;
+  background-color: aqua;
+  background-image: url('../modell.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  transform-origin: 50% 50%;
+}
+
+.link {
+  padding: 1em;
+  align-self: baseline;
+}
+
+.link .arrow {
+  border-width: 0 0 1px 1px ;
+  border-style: solid;
+  border-color: #b8860b;
+  height: 1em;
+  width: 1em;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.heart {
+  align-self: flex-start;
+  justify-self: end;
+
+}
+.heart svg {
+  height: 25px;
+  width: 25px;
+}
+
+.nameAndRating {
+  align-self: end;
+}
+
+.hero .name {
+  font-family: "MillerBanner";
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 2px solid gray;
+  border-width: 2px 0 0 0;
+}
+
+.menuItem {
+  display: flex;
+  width: 100%;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  margin: 0 2px;
+  height: 2em;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menuInfo {
+  border-color: #b8860b;
+}
+
+.menuSchema {
+  border-color: gray;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: lightgray;
+  height: 1.5em;
+  padding:5px
+}
+
+.detail * {
+  margin:10px;
+}
+
+.description {
+  height: auto;
+  border: none;
+}
+
+.show {
+  animation: slideIn 0.75s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.hide {
+  animation: slideOut 0.5s ease-in forwards;
+}
+
+
+@keyframes slideOut {
+  from {
+    transform: translate(0);
+  }
+  
+  to {
+    box-shadow: -2px 5px 15px 5px rgba(0,0,0,0.29);
+  }
+}

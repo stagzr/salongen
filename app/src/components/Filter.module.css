@@ -1,0 +1,42 @@
+.filter {
+    border-width: 0 0 1px 0 ;
+    border-style: solid;
+    border-color: #b8860b;
+}
+
+.filterInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.toggle {
+    border-width: 0 0 1px 1px ;
+    border-style: solid;
+    border-color: #b8860b;
+    height: 0.7em;
+    width: 0.7em;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 1s;
+}
+
+.toggleShowing {
+    transform: rotate(135deg);
+    transition: all 1s;
+}
+
+.filterPrice {
+    max-height: 0px;
+    transition: all 1s;
+    opacity: 0;
+}
+
+.showFilterPrice {
+    max-height: 100px;    
+    opacity: 1;
+    transition: all 1s;
+}
+
+
