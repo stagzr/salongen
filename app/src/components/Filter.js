@@ -56,8 +56,9 @@ const Filter = ({ minPrice, maxPrice, setPriceRange }) => {
 };
 
 Filter.propTypes = {
-  rating: PropTypes.number,
-  amountOfVoters: PropTypes.string,
+  minPrice: PropTypes.number,
+  maxPrice: PropTypes.number,
+  setPriceRange: PropTypes.func,
 };
 
 export default Filter;

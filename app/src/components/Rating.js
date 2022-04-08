@@ -5,7 +5,7 @@ const Rating = ({ rating, amountOfReviews }) => {
   return (
     <div className={Style.rating}>
       {[...Array(5)].map((x, index) => {
-        return <Star filled={index < rating} />;
+        return <Star filled={index < rating} key={index} />;
       })}
       <span className={Style.amountOfVoters}>({amountOfReviews})</span>
     </div>
@@ -34,7 +34,7 @@ const Star = ({ filled }) => {
 
 Rating.propTypes = {
   rating: PropTypes.number,
-  amountOfVoters: PropTypes.string,
+  amountOfReviews: PropTypes.number,
 };
 
 export default Rating;

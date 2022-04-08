@@ -11,7 +11,6 @@ it("renders title of company", () => {
 });
 
 it("calculates correct min and max price for all companies", () => {
-  console.log("before call");
   const result = getMinAndMaxPrice([
     { price: 100 },
     { price: 200 },

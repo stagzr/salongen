@@ -4,7 +4,7 @@ import Style from './Salong.module.css';
 
 const Salong = ({ data: salong, setCurrentSalong }) => {
   return (
-    <div className={Style.salong}>
+    <div className={Style.salong} onClick={() => setCurrentSalong(salong)}>
       <div className={Style.time}>{salong.time}</div>
       <div className={Style.name}>{salong.name}</div>
       <div className={Style.rating}>
@@ -17,23 +17,23 @@ const Salong = ({ data: salong, setCurrentSalong }) => {
       <div className={Style.price}>{salong.price}kr</div>
       <div className={Style.executionTime}>{salong.executionTime}</div>
       <div className={Style.link}>
-        <div
-          className={Style.arrow}
-          onClick={() => setCurrentSalong(salong)}
-        ></div>
+        <div className={Style.arrow}></div>
       </div>
     </div>
   );
 };
 
 Salong.propTypes = {
-  name: PropTypes.string,
-  price: PropTypes.number,
-  time: PropTypes.string,
-  executionTime: PropTypes.string,
-  rating: PropTypes.number,
-  amountOfReviews: PropTypes.number,
-  adress: PropTypes.string,
+  salong: PropTypes.shape({
+    name: PropTypes.string,
+    price: PropTypes.number,
+    time: PropTypes.string,
+    executionTime: PropTypes.string,
+    rating: PropTypes.number,
+    amountOfReviews: PropTypes.number,
+    adress: PropTypes.string,
+    executionTime: PropTypes.string,
+  }),
 };
 
 export default Salong;
