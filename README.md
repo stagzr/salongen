@@ -19,6 +19,8 @@ Möjliga förbättringar:
 
 ### Starta via npm
 
+> `cd app`
+
 > `npm i`
 
 > `npm start`
