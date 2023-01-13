@@ -1,7 +1,5 @@
 # Salongen
 
-Skånska Byggvarors arbetsprov för frontend-utvecklare.
-
 Appen är baserad på create-react-app.
 
 Testet skulle utföras på 4-8 timmar men jag har lagt ner ca 10-12 timmar.
